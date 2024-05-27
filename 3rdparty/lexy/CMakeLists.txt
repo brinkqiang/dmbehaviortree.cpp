@@ -16,7 +16,7 @@ if(CMAKE_CURRENT_SOURCE_DIR STREQUAL CMAKE_SOURCE_DIR)
     option(LEXY_BUILD_TESTS      "whether or not tests should be built" ON)
     option(LEXY_BUILD_DOCS       "whether or not docs should be built" OFF)
     option(LEXY_BUILD_PACKAGE    "whether or not the package should be built" ON)
-    option(LEXY_ENABLE_INSTALL   "whether or not to enable the install rule" ON)
+    option(LEXY_ENABLE_INSTALL   "whether or not to enable the install rule" OF)
 
     if(LEXY_BUILD_PACKAGE)
         set(package_files include/ src/ cmake/ CMakeLists.txt LICENSE)

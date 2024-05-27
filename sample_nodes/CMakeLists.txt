@@ -9,6 +9,8 @@ add_library(bt_sample_nodes STATIC
     dummy_nodes.cpp
     movebase_node.cpp )
 
+set_target_properties(bt_sample_nodes PROPERTIES EXPORT_NAME bt_sample_nodes)
+
 target_link_libraries(bt_sample_nodes PRIVATE ${BTCPP_LIBRARY})
 #set_target_properties(bt_sample_nodes PROPERTIES ARCHIVE_OUTPUT_DIRECTORY ${BTCPP_LIB_DESTINATION} )
 

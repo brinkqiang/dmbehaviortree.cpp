@@ -23,7 +23,6 @@ if(BTCPP_SQLITE_LOGGING)
     message(STATUS "SQLite3_LIBRARIES: ${SQLite3_LIBRARIES}")
 endif()
 
-
 set( BTCPP_LIB_DESTINATION     lib )
 set( BTCPP_INCLUDE_DESTINATION include )
 set( BTCPP_BIN_DESTINATION     bin )
